@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="1639712095_355-catherineasquithgallery-com-p-fon-anime-dlya-intro-rozovii-483.jpg" />
+    <None Remove="final.jpg" />
+    <None Remove="kandinsky-download-1683053030482.png" />
+    <None Remove="kandinsky-download-1683054709882.png" />
+    <None Remove="загружено.png" />
+    <None Remove="Фон.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="4.8.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="1639712095_355-catherineasquithgallery-com-p-fon-anime-dlya-intro-rozovii-483.jpg" />
+    <Resource Include="final.jpg" />
+    <Resource Include="kandinsky-download-1683053030482.png" />
+    <Resource Include="kandinsky-download-1683054709882.png" />
+    <Resource Include="загружено.png" />
+    <Resource Include="Фон.png" />
+  </ItemGroup>
+
+</Project>
